@@ -23,7 +23,7 @@ To allow easy usage the binaries are packaged in shellscripts that automatically
 
 Usage: `bash faudreeSchelp.sh n plantri-args`
 
-Generates a category of graphs with plantri and filters those that are hamiltonian-connected and dont't satisfy ${\mathfrak P}_k$ for every $n/2\leq k \leq n$
+Generates a category of graphs with plantri and filters those that are hamiltonian-connected and dont't satisfy ${\mathfrak P}_k$ for every $n/2+1\leq k \leq n$
 
 The order of the arguments here is important.
 ```
@@ -71,7 +71,7 @@ The order of the arguments here is important.
 
 Usage: `bash faudreeSchelp_non_planar.sh n geng-args`
 
-Generates a category of graphs with geng and filters those that are hamiltonian-connected and do not satisfy ${\mathfrak P}_k$ for every $n/2\leq k \leq n$
+Generates a category of graphs with geng and filters those that are hamiltonian-connected and do not satisfy ${\mathfrak P}_k$ for every $n/2+1\leq k \leq n$
 
 The order of the arguments here is important.
 ```
@@ -117,16 +117,16 @@ The order of the arguments here is important.
 ### Examples
 
 `bash faudreeSchelp.sh 16d '-d'`
-Generates all planar cubic three-connected graphs on 16 vertices that are hamiltonian-connected but do not satisfy ${\mathfrak P}_k$ for every $n/2\leq k \leq n$
+Generates all planar cubic three-connected graphs on 16 vertices that are hamiltonian-connected but do not satisfy ${\mathfrak P}_k$ for every $n/2+1\leq k \leq n$
 
 `bash faudreeSchelp.sh 17 '-p -m5'`
-Generates all planar simple three-connected graphs on 17 vertices with minimum degree 5 that are hamiltonian-connected but do not satisfy ${\mathfrak P}_k$ for every $n/2\leq k \leq n$
+Generates all planar simple three-connected graphs on 17 vertices with minimum degree 5 that are hamiltonian-connected but do not satisfy ${\mathfrak P}_k$ for every $n/2+1\leq k \leq n$
 
 `bash faudreeSchelp.sh 17 '-p -m5'`
-Generates all planar simple three-connected graphs on 17 vertices with minimum degree 5 that are hamiltonian-connected but do not satisfy ${\mathfrak P}_k$ for every $n/2\leq k \leq n$
+Generates all planar simple three-connected graphs on 17 vertices with minimum degree 5 that are hamiltonian-connected but do not satisfy ${\mathfrak P}_k$ for every $n/2+1\leq k \leq n$
 
 `bash faudreeSchelp_non_planar.sh 8 '-C'`
-Generates all simple two-connected graphs on 8 vertices that are hamiltonian-connected but do not satisfy ${\mathfrak P}_k$ for every $n/2\leq k \leq n$
+Generates all simple two-connected graphs on 8 vertices that are hamiltonian-connected but do not satisfy ${\mathfrak P}_k$ for every $n/2+1\leq k \leq n$
 
 `bash faudreeSchelp_non_planar_all.sh 7 '-C'`
 Generates all simple two-connected graphs on 7 vertices that are hamiltonian-connected
