@@ -3,7 +3,7 @@ A repository to maintian the code used to find new counterexamples to a conjectu
 
 The latest version of this program can be obtained from <https://github.com/AGT-Kulak/Counterexamples-Faudree-Schelp.git>.
 
-This codebase filters graphs that are hamiltonian-connected and k-uniformly connected for every k in {2...n-2}. It makes use of datastructures and methods from [`nauty`](https://pallini.di.uniroma1.it/), [`plantri`](https://users.cecs.anu.edu.au/~bdm/plantri/), [`snarkhunter`](https://caagt.ugent.be/cubic/)  and [`K2-Hamiltonian Graphs`](https://github.com/JarneRenders/K2-Hamiltonian-Graphs). The verification implementation is derived from [`hamiltonian_cycles`](https://github.com/JorikJooken/hamiltonian_cycles).
+This codebase filters graphs that are hamiltonian-connected and satisfy ${\mathfrak P}_k$ for every $2\leq k \leq n$. It makes use of datastructures and methods from [`nauty`](https://pallini.di.uniroma1.it/), [`plantri`](https://users.cecs.anu.edu.au/~bdm/plantri/), [`snarkhunter`](https://caagt.ugent.be/cubic/)  and [`K2-Hamiltonian Graphs`](https://github.com/JarneRenders/K2-Hamiltonian-Graphs). The verification implementation is derived from [`hamiltonian_cycles`](https://github.com/JorikJooken/hamiltonian_cycles).
 
 ## Installation
 
