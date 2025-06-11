@@ -1,5 +1,5 @@
 # Counterexamles-to-a-conjecture-of-Faudree-and-Schelp
-A repository to maintian the code used to find new counterexamples to a conjecture by Faudree and Schelp.
+A repository to maintain the code used to find new counterexamples to a conjecture by Faudree and Schelp.
 
 The latest version of this program can be obtained from <https://github.com/AGT-Kulak/Counterexamples-Faudree-Schelp.git>.
 
@@ -9,10 +9,9 @@ This codebase filters graphs that are hamiltonian-connected and satisfy ${\mathf
 
 This requires a working shell and `make`.
 
-- Download, extract and configure [`nauty`](https://pallini.di.uniroma1.it/) in /nauty.
-- Download, extract and configure [`plantri`](https://users.cecs.anu.edu.au/~bdm/plantri/) in /plantri.
-- Download, extract and configure [`snarkhunter`](https://caagt.ugent.be/cubic/) in /snarkhunter.
-- Compile using: 
+- Download, extract, configure and compile [`nauty`](https://pallini.di.uniroma1.it/) in /nauty.
+- Download, extract, configure and compile [`plantri`](https://users.cecs.anu.edu.au/~bdm/plantri/) in /plantri.
+- Compile the code in this package using: 
 	* `make all` to create a binary
 
 ## Usage
